@@ -1,1 +1,34 @@
 <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Calculate the area of a triangle using JavaScript">
+  <meta name="keywords" content="triangle, area, calculator, JavaScript">
+  <meta name="author" content="Olantu">
+  <title>Triangle Area Calculator</title>
+  <link rel="stylesheet" type="text/css" href="https://code.getmdl.io/1.3.0/material.pink-pink.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="shortcut icon" type="image/png" href="favicon.png">
+</head>
+
+<body>
+  <h1>Triangle Area Calculator</h1>
+  <form>
+    <label for="base">Base:</label>
+    <input type="number" id="base" required><br>
+
+    <label for="height">Height:</label>
+    <input type="number" id="height" required><br>
+
+    <button type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored"
+      onclick="calculate()">Calculate Area</button>
+    <p id="result"></p>
+  </form>
+
+  <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>

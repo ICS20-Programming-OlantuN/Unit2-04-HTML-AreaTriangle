@@ -1,0 +1,38 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f2f2f2;
+}
+
+h1 {
+	text-align: center;
+	color: #d34a61;
+}
+
+form {
+	background-color: white;
+	padding: 20px;
+	margin: 0 auto;
+	max-width: 400px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px #b569a1;
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+	color: #000000;
+}
+
+input {
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid #ddb0b0;
+	margin-bottom: 10px;
+}
+
+p {
+	margin-top: 10px;
+	color: #b995bb;
+	font-weight: bold;
+	font-size: 20px;
+}
